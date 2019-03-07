@@ -1,0 +1,118 @@
+* {
+	transition: all .3s ease-in;
+	box-sizing: border-box;
+}
+ 
+body {
+	margin: 0;
+	border: 20px solid #2b81ac;
+	background-color: #3399cc;
+	color: #ffffff;
+	font-family:  “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+	min-height: 100vh;
+	min-width: 620px;
+
+}
+
+h1 {
+	margin: 30px auto 25px 25%;
+	font-size: 22px;
+	min-width: 360px;
+}
+
+.container {
+	font-size: 0;
+	margin-left: 25%;
+	padding: 0;
+	min-width: 430px;
+	width: 50%;
+	border: 2px solid #fff;
+}
+
+.towns {
+	display: inline-block;
+	width: 25%;
+	text-align: center;
+	color: #ffffff;
+	white-space: nowrap;
+	position: relative;
+	border: 2px solid #fff;
+	padding: 10px;
+}
+
+span {
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-weight: normal;
+	font-size: 18px;
+}	
+
+.large {
+	width: 50%;
+}
+
+.xlarge {
+	width: 100%;
+} 
+
+ul:hover li {
+	opacity: 0.5;
+}
+
+.towns:hover {
+	opacity: 1;
+}
+
+.towns p {
+	opacity: 0.8;
+	font-size:  15px;
+	margin: 10px 10px;
+}
+
+.cyan {
+	background-color: #3cc;
+}
+
+.purple {
+	background-color: #969;
+}
+
+.red {
+	background-color: #c24747;
+}
+
+.orange {
+	background-color: #e2674a;
+}
+
+.yellow {
+	background-color: #fc6;
+}
+
+.light-green {
+	background-color: #9c9;
+}
+
+.dark-green {
+	background-color: #699;
+}
+
+.pink {
+	background-color: #c69;
+}
+
+.green{
+	background-color: #396;
+}
+
+.dark-purple {
+	background-color: #666699;
+}
+
+.farewell {
+	margin-bottom: 75px;
+	margin-left: 25%;
+	margin-top: 20px;
+	font-size: 15px;
+}
